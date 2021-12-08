@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    margin-bottom: 12px;
+    font-size: 40px;
+    font-weight: 300;
+}
+.hero{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: #ADB1B8;
+    border-width: 0px  0px 2px 0px;
+  
+}
+.form {
+    display: flex;
+    height: 470px;
+    width: 460
+    px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+
+.form-footer {
+    display: flex;
+    height: 470px;
+    width: 300px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-wrapper{
+    height: 310px;
+    width: 420px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-bottom: 18px;
+}
+
+span:after,
+span:before{
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+}
+.line-on-text{
+    margin-bottom: 18px;
+}
+.input-feild{
+    width:96%;
+    height: 32px;
+    margin-bottom: 25px;
+    padding-left: 4%;
+    
+}
+button{
+    width:100%;
+    height: 38px;
+    margin-bottom: 14px;
+    border-style: solid;  
+    border-width: 1px;
+}
+p{
+    padding-bottom: 12px;
+}
+
+.cont{
+    color: rgb(0, 0, 0);
+    background-color: #F7C548;
+}
+#txt-div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#footer-links{
+
+
+    font-size: 14px;
+}
+.links{
+    text-decoration: none;
+    color: #409CFF;
+}
+.footer{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.copyright{
+  padding: 12px 0;  
+  font-size: 14px;
+}
